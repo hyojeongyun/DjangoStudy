@@ -110,14 +110,12 @@ def a3():
    print('aaa')
 a3()  # aaa 출력
 ```
----
 * 리턴값
 ```python
 def a3():
    return 'aaa'
 print(a3()) # aaa 출력
 ```
----
 * 입력값
 ```python
 def a(num):
@@ -129,7 +127,6 @@ def make_string(str, num):
    return str*num
 print(make_string('b', 3)) # bbb 출력
 ```
----
 ```python
 input_id = input("아이디를 입력해주세요.\n")
 def login(_id):
